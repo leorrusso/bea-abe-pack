@@ -1,1 +1,77 @@
-CONTENT_PLACEHOLDER
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bea Abe | Pack Exclusivo de Fotos do Pé</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body{font-family:Inter,sans-serif;margin:0;background:#fafafa;color:#0a0a0a}
+header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.95);padding:1rem 2rem;border-bottom:1px solid #eee;z-index:10}
+.logo{font-family:'Playfair Display',serif;font-size:1.5rem}
+.logo span{color:#E8C43A}
+.hero{min-height:100vh;display:flex;align-items:center;padding:6rem 5% 4rem;background:linear-gradient(135deg,#fff,#FFF8E1)}
+.hero h1{font-family:'Playfair Display',serif;font-size:3.5rem;line-height:1.1}
+.hero h1 em{color:#E8C43A;font-style:italic}
+.cta{display:inline-block;background:#0a0a0a;color:#fff;padding:1rem 2rem;border-radius:50px;text-decoration:none;font-weight:600;margin-right:1rem}
+.cta:hover{background:#E8C43A;color:#0a0a0a}
+section{padding:4rem 5%}
+.section-title{text-align:center;font-family:'Playfair Display',serif;font-size:2.5rem}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin-top:2rem}
+.feature{background:#fff;padding:1.5rem;border-radius:16px;text-align:center}
+.pricing-card{max-width:400px;margin:2rem auto;background:#0a0a0a;color:#fff;padding:2rem;border-radius:20px;text-align:center}
+.price{font-size:2.5rem;color:#F5D547}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);align-items:center;justify-content:center;z-index:100}
+.modal-content{background:#fff;padding:2rem;border-radius:16px;text-align:center;max-width:400px}
+footer{background:#0a0a0a;color:#999;text-align:center;padding:2rem;font-size:.85rem}
+</style>
+</head>
+<body>
+<header><div class="logo">Bea <span>Abe</span></div></header>
+<section class="hero">
+<div>
+<div style="background:#F5D547;display:inline-block;padding:.3rem 1rem;border-radius:50px;font-size:.75rem;font-weight:600;margin-bottom:1rem">EDIÇÃO LIMITADA • 2026</div>
+<h1>O Pack que o Brasil <em>não esperava</em></h1>
+<p style="color:#6B6B6B;max-width:480px">Fotos artísticas e exclusivas dos pés da atriz Bea Abe. Capturadas em luz natural, com ângulos cinematográficos.</p>
+<div style="font-size:2.5rem;font-weight:700;margin:1rem 0">R$ 497 <span style="font-size:1rem;font-weight:400;color:#6B6B6B">/ pack completo</span></div>
+<a href="#" class="cta" onclick="document.getElementById('modal').style.display='flex';return false">Quero o Pack Agora</a>
+</div>
+</section>
+<section>
+<h2 class="section-title">O que você recebe</h2>
+<div class="features">
+<div class="feature"><h3>87 Fotos Exclusivas</h3><p>Ângulos diferentes, luz natural e close-ups artísticos.</p></div>
+<div class="feature"><h3>Edição Cinematográfica</h3><p>Color grading profissional em todas as fotos.</p></div>
+<div class="feature"><h3>Acesso Vitalício</h3><p>Download imediato em alta resolução.</p></div>
+</div>
+</section>
+<section style="background:#FFF8E1">
+<h2 class="section-title">O que estão dizendo</h2>
+<div class="features">
+<div class="feature"><p><em>"Achei que era meme. Comprei pra zoar. Agora tô aqui admirando a composição da foto 23."</em><br><strong>— Rafael</strong></p></div>
+<div class="feature"><p><em>"A qualidade é absurda. Parece editorial da Vogue, só que... dos pés."</em><br><strong>— Camila</strong></p></div>
+</div>
+</section>
+<section>
+<div class="pricing-card">
+<h3>Pack Completo Bea Abe</h3>
+<div class="price">R$ 497</div>
+<ul style="text-align:left;list-style:none;padding:0">
+<li>✓ 87 fotos em alta resolução</li>
+<li>✓ Acesso imediato</li>
+<li>✓ Bônus: 12 fotos "por trás das câmeras"</li>
+</ul>
+<a href="#" class="cta" style="background:#F5D547;color:#0a0a0a" onclick="document.getElementById('modal').style.display='flex';return false">Comprar Agora</a>
+</div>
+</section>
+<footer>© 2026 Bea Abe. <strong style="color:#fff">Isso é uma pegadinha.</strong> Nenhum pé foi vendido.</footer>
+<div class="modal" id="modal">
+<div class="modal-content">
+<h2 style="color:#E8C43A">Pegadinha! 😂</h2>
+<p>Você realmente ia comprar um pack de fotos dos pés da Bea Abe?</p>
+<p>Calma, é só uma brincadeira. Não existe nenhum pack.</p>
+<button onclick="document.getElementById('modal').style.display='none'" style="background:#0a0a0a;color:#fff;border:none;padding:.8rem 2rem;border-radius:50px;cursor:pointer">Entendi, fui trollado</button>
+</div>
+</div>
+</body>
+</html>
